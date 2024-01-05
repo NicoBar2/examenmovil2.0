@@ -52,12 +52,12 @@ class MyHomePage extends StatelessWidget {
                 Navigator.of(context).pop();
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.red, // Fondo rojo
+                primary: Color.fromARGB(255, 35, 169, 75), // Fondo rojo
               ),
               child: Text(
                 'OK',
                 style: TextStyle(
-                  color: Colors.white, // Texto blanco
+                  color: const Color.fromARGB(255, 210, 26, 26), // Texto blanco
                   fontSize: 18,
                 ),
               ),
@@ -132,7 +132,7 @@ class MyHomePage extends StatelessWidget {
                 'Exit',
                 style: TextStyle(
                   color: Colors.white, // Texto blanco
-                  fontSize: 18,
+                  fontSize: 27,
                 ),
               ),
             ),
